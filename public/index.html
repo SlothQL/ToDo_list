@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-    <link rel="styelesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/bundle.js"></script>
 </head>
 <body>
     <div id="app">
         <form v-on:submit.prevent="saveNewTodo">
-            <label for="new-todo">ToDo's</label>
-            <input id="new-todo" type="text" v-model="newTodo" />
+            <label for="new-todo" class="headline">ToDo's</label>
+            <input id="new-todo" type="text" v-model="newName" />
+
+            <input type="radio" id="high" value="High" v-model="newPriority" name="priority">
+            <label for="high">High</label>
+
+            <input type="radio" id="low" value="Low" v-model="newPriority" name="priority">
+            <label for="low">Low</label>
+
             <input type="submit" value="Save Item" />
         </form>
 
         <ul>
-            <li v-for="todo in todos">
-                <span>{{ todo }}</span>
+            <li v-for="(todo, index) in todos">
+                <span>{{ todo.name }}</span>
             </li>
         </ul>
     </div>
