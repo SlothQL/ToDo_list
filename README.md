@@ -13,8 +13,8 @@
 
 Application once opened:
 
-![start](start.png)
+![start](start-5864982.png)
 
 The user can add new todos to the list. Todos with a high priority show up in red, todos with a low priority show up in green.
 
-![added](added.png)
+![added](added-5864991.png)
