@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         methods: {
             saveNewTodo: function() {
                 this.todos.push(this.newTodo);
+                this.newTodo = '';
             }
         }
     });
