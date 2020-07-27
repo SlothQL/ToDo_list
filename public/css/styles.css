@@ -32,3 +32,18 @@ li.high {
 li.low {
     border: 2px solid #1a681e;
 }
+
+.button {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.input-box {
+    height: 25px;
+    width: 250px;
+    margin-right: 10px;
+}
