@@ -11,10 +11,12 @@
 - Vue
 - Webpack
 
-Application once opened:
 
-![start](start.jpeg)
+
+The application once opened:
+
+![start](start-5865456.png)
 
 The user can add new todos to the list. Todos with a high priority show up in red, todos with a low priority show up in green:
 
-![added](added-5864991.png)
+![added](added-5865471.png)
