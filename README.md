@@ -11,8 +11,8 @@
 - Vue
 - Webpack
 
-![start](start.png)
+![start](images/start.png)
 
 The user can add new todos to the list. Todos with a high priority show up in red, todos with a low priority show up in green:
 
-![added](added.png)
+![added](images/added.png)
